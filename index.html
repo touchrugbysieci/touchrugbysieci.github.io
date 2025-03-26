@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Rugby - Divertente, Senza Contatto, Per Tutti</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .button {
+            background: #d32f2f;
+            color: white;
+            padding: 15px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            font-weight: bold;
+            gap: 10px;
+        }
+        .button:hover {
+            background: #b71c1c;
+        }
+        .button img {
+            width: 24px;
+            height: 24px;
+        }
+        .info-container {
+            display: flex;
+            justify-content: space-around;
+            background: #d32f2f;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .info-item {
+            cursor: pointer;
+            position: relative;
+        }
+        .info-item a {
+            color: white;
+            text-decoration: none;
+        }
+        .info-item span {
+            display: none;
+            position: absolute;
+            background: white;
+            color: black;
+            padding: 5px;
+            border-radius: 5px;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        .info-item:hover span {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Locandina Touch v4-1.png" alt="Touch Rugby Locandina">
+        <div class="buttons">
+            <a class="button" href="https://www.google.com/maps/search/?api=1&query=Polisportiva+Sieci" target="_blank">
+                <img src="google-maps-icon.png" alt="Mappa"> Apri Mappa
+            </a>
+            <a class="button" href="https://wa.me/393346346765" target="_blank">
+                <img src="whatsapp-icon.png" alt="WhatsApp"> Scrivici su WhatsApp
+            </a>
+        </div>
+    </div>
+    <!-- <div class="info-container">
+        <div class="info-item">
+            <a href="https://www.google.com/maps/search/?api=1&query=Polisportiva+Sieci" target="_blank">Dove</a>
+        </div>
+        <div class="info-item">
+            <a href="https://wa.me/393346346765" target="_blank">Contatti</a>
+        </div>
+    </div> -->
+</body>
+</html>
